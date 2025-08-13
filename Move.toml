@@ -1,0 +1,15 @@
+[package]
+name = "RockPaperScissors_01"
+version = "1.0.0"
+authors = []
+
+[addresses]
+RPC = "0x20e226f40a6d1403005db6da1ac773440259d2dfa623941f6c1a025f2422ff70"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
